@@ -1,0 +1,20 @@
+* {
+  border: 1px solid black;
+}
+
+header {
+  border: 2px solid red;
+  text-align: center;
+}
+
+aside {
+  border: 2px solid green;
+}
+
+main {
+  border: 2px solid blue;
+}
+
+.hidden {
+  display: none;
+}

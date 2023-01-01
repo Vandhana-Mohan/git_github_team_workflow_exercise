@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <script defer src="main2.js"></script>
+    <title>Weather App Project</title>
+  </head>
+  <body>
+    <header>
+      <h1>Weather App</h1>
+
+      <form id="form">
+        <label for="submit">Pick a location: </label>
+        <input type="text" id="submit" name="submit" autocomplete="off" />
+        <input type="submit" form="form" value="Submit" />
+      </form>
+    </header>
+
+    <aside class="hidden">
+      <form>
+        <label for="temp">Convert the Temperature</label>
+        <input type="number" name="temp" />
+
+        <label for="temp_c">To Celcius</label>
+        <input type="radio" name="temp_c" id="to-c" value="c" />
+
+        <label for="temp_f">To Fahrenheit</label>
+        <input type="radio" name="temp_f" id="to-f" value="f" />
+
+        <input type="submit" value="Submit" />
+      </form>
+      <h4></h4>
+    </aside>
+
+    <main>
+      <p>Choose a location to view the weather</p>
+      <article></article>
+      <aside></aside>
+    </main>
+
+    <aside>
+      <section>
+        <h4>Previous Searches</h4>
+        <ul>
+          <p>No previous searches.</p>
+        </ul>
+      </section>
+    </aside>
+  </body>
+</html>
